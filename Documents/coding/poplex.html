@@ -1,0 +1,30 @@
+
+<head>
+
+    <title>POP the Alex</title>
+</head>
+
+<body style="background-image: url('https://image.kurier.at/images/cfs_616w/3795332/46-130273793.jpg'); background-size: cover; background-repeat: no-repeat;">
+    <h1 id="count" style="color: white; margin-left: 45%">Count: 0</h1>
+    <a href="#" style="display: flex; justify-items: center; align-items: center; width: 100%; height: 100%">
+        <img src="popcatmc.jpg" alt="POPLEX.IMG" id="backgroundimg" onmousedown="popIt(false)" onmouseup="popIt(true)" style="width: auto; height: 100%; margin-left: 25%" onscroll="popIt(false)">
+    </a>
+    <script>
+        let count = 0;
+        const mouth_closed = "poplexmc.jpg";
+        const mouth_opened = "poplex.jpg"
+        function popIt(open){
+            const back = document.getElementById("backgroundimg");
+            const c = document.getElementById("count");
+            if (open){
+                back.src = mouth_closed
+            }
+            else{
+                back.src = mouth_opened
+
+                count+=1;
+                c.innerHTML = "Count: " + count;
+            }
+        }
+    </script>
+</body>
