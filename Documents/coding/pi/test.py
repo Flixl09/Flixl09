@@ -1,1 +1,0 @@
-print(str(bin(11))[1])
