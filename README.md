@@ -51,13 +51,11 @@
 ###
 
 <div align="center">
-  <a href="www.linkedin.com/in/felix-schmid-46982729a" target="_blank">
+  <a href="https://www.linkedin.com/in/felix-schmid-46982729a" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=Felix%20Schmid&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
-  <a href="flixl06#" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=flixl06&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  </a>
-  <a href="felix@matrix.flixl.xyz" target="_blank">
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=flixl06&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
+  <a href="matrix:@flixl:matrix.flixl.xyz" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Matrix&logo=matrix&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="matrix logo"  />
   </a>
 </div>
